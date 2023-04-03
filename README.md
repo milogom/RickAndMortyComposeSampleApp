@@ -3,7 +3,11 @@
 
 RickandMortyApp is an application that get character data from Rick And Morty Api.
 
+![ListView](/demo/ListView.png?raw=true "List View")
+
 [ListView](demo/ListView.png)
+[SearchView](demo/SearchView.png)
+[DetailView](demo/DetailView.png)
 
 Developed with:
 - Clean Architecture 
