@@ -1,6 +1,24 @@
-# RickAndMortyApp
-RickandMortyApp is an application that get character data from Rick And Morty Api, which is developed with Clean Architecture, Retrofit, MVVM Pattern, Jetpack Compose, Hilt and other useful libraries like Coil and more.
+# RickAndMortyComposeSampleApp
+2023 Miguel Angel Lozano
 
-[![pixlr-bg-result.png](https://i.postimg.cc/9fLRdB0Q/pixlr-bg-result.png)](https://postimg.cc/HJ7kHXbq)[![Pel-culas-y-TV-15-05-2022-22-08-20-removebg-preview.png](https://i.postimg.cc/Sx7zs4p8/Pel-culas-y-TV-15-05-2022-22-08-20-removebg-preview.png)](https://postimg.cc/21y5cPy8)
+RickandMortyApp is an application that get character data from Rick And Morty Api.
 
+
+
+Developed with:
+- Clean Architecture 
+- MVVM Pattern
+- Retrofit
+- OkHttp
+- Jetpack Compose for presentation
+- Hilt for dependency injection
+- Coil for caching images 
+
+App features:
+- Character list view
+- Character detail view
+- Predictive search field
+- Pagination
+
+It is based on this Compose Tutorial (https://www.youtube.com/playlist?list=PLEeNnyP176Rddpoml66AVn9QXphlrW5fo) adding shaping, search box, themes, languages, etc.
 
