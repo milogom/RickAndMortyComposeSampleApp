@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Rick And Morty Compose App</string>
+
+    <!--  HomeScreen  -->
+    <string name="home_title">Characters List</string>
+    <string name="previous_button">Previous</string>
+    <string name="next_button">Next</string>
+
+    <!-- DetailScreen   -->
+    <string name="first_location">First seen in:</string>
+    <string name="last_location">Last know location:</string>
+    <string name="specie">Specie:</string>
+    <string name="status">Status:</string>
+    <string name="gender">Gender:</string>
+    <string name="id">Id:</string>
+    <string name="search_characters">Search</string>
+    <string name="search_icon_content_desc">Search icon</string>
+</resources>

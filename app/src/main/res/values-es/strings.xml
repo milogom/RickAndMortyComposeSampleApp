@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rick And Morty Compose App</string>
+    <string name="home_title">Listado de personajes</string>
+    <string name="previous_button">Anterior</string>
+    <string name="next_button">Siguiente</string>
+    <string name="first_location">Visto por primera vez en:</string>
+    <string name="last_location">Última localización conocida:</string>
+    <string name="specie">Especie:</string>
+    <string name="status">Estado:</string>
+    <string name="gender">Género:</string>
+    <string name="id">Id:</string>
+    <string name="search_characters">Buscar</string>
+    <string name="search_icon_content_desc">Icono de búsqueda</string>
+</resources>
