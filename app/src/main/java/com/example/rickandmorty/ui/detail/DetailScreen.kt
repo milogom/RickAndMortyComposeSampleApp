@@ -51,7 +51,7 @@ private fun DetailContent(
                 modifier = Modifier
                     .fillMaxWidth()
                     .height(240.dp),
-                character = character
+                character = character,
             )
             Body(character = character)
         }
@@ -73,19 +73,19 @@ private fun Header(
         Spacer(modifier = Modifier.height(12.dp))
         Text(
             text = character?.name ?: "",
-            style = MaterialTheme.typography.h3,
+            style = MaterialTheme.typography.h1,
             color = Color.White
         )
         Row {
             Text(
                 text = stringResource(R.string.id) ?: "",
-                style = MaterialTheme.typography.caption,
+                style = MaterialTheme.typography.body1,
                 color = Color.White
             )
             Spacer(modifier = Modifier.width(4.dp))
             Text(
                 text = character?.id.toString() ?: "",
-                style = MaterialTheme.typography.caption,
+                style = MaterialTheme.typography.body1,
                 color = Color.White
             )
         }
@@ -98,7 +98,7 @@ private fun Body(character: Character?) {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .background(Color.DarkGray)
+            .background(Color.DarkGray),
     ) {
         DetailProperty(
             label = stringResource(R.string.specie),

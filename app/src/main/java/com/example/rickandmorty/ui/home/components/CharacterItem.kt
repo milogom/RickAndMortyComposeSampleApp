@@ -49,7 +49,7 @@ fun CharacterItem(
             CompositionLocalProvider(LocalContentAlpha provides ContentAlpha.medium) {
                 Text(
                     text = item.specie,
-                    style = MaterialTheme.typography.caption,
+                    style = MaterialTheme.typography.body1,
                     color = Color.White,
                 )
             }

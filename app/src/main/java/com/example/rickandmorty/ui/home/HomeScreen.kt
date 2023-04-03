@@ -18,6 +18,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Color.Companion.Green
 import androidx.compose.ui.graphics.Color.Companion.Yellow
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
@@ -93,6 +94,7 @@ private fun HomeTopBar(
             Column {
                 Text(
                     text = stringResource(id = R.string.home_title),
+                    style = MaterialTheme.typography.h2,
                     textAlign = TextAlign.Center,
                     modifier = modifier
                         .fillMaxWidth()
@@ -106,7 +108,7 @@ private fun HomeTopBar(
                         .fillMaxWidth()
                         .padding(horizontal = 16.dp)
                         .clip(RoundedCornerShape(4.dp)),
-                    singleLine = true,
+                                        singleLine = true,
                     leadingIcon = {
                         Icon(
                             imageVector = Icons.Filled.Search,
@@ -173,7 +175,11 @@ private fun HomeBottomBar(
                 enabled = showPrevious,
                 onClick = onPreviousPressed
             ) {
-                Text(text = stringResource(id = R.string.previous_button))
+                Text(
+                    text = stringResource(id = R.string.previous_button),
+                    style = MaterialTheme.typography.h6
+                )
+
             }
             TextButton(
                 modifier = Modifier
@@ -183,7 +189,10 @@ private fun HomeBottomBar(
                 enabled = showNext,
                 onClick = onNextPressed
             ) {
-                Text(text = stringResource(id = R.string.next_button))
+                Text(
+                    text = stringResource(id = R.string.next_button),
+                    style = MaterialTheme.typography.h6
+                )
             }
         }
     }

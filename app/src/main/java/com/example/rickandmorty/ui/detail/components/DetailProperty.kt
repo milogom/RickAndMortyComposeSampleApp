@@ -36,9 +36,16 @@ fun DetailProperty(
             )
             Spacer(Modifier.width(10.dp))
             Column {
-                Text(text = label, fontWeight = FontWeight.Bold, color = MaterialTheme.colors.secondary)
+                Text(
+                    text = label,
+                    style = MaterialTheme.typography.h3,
+                    fontWeight = FontWeight.Bold,
+                    color = MaterialTheme.colors.secondary)
                 Spacer(Modifier.height(5.dp))
-                Text(text = value ?: "",  color = Color.White, style = MaterialTheme.typography.caption)
+                Text(
+                    text = value ?: "",
+                    color = Color.White,
+                    style = MaterialTheme.typography.body1)
             }
         }
     }
