@@ -15,13 +15,20 @@ val Raleway = FontFamily(
 
 // Set of Material typography styles to start with
 val Typography = Typography(
+
     body1 = TextStyle(
+        fontFamily = Raleway,
+        fontWeight = FontWeight.Normal,
+        fontSize = 16.sp
+    ),
+
+    body2 = TextStyle(
         fontFamily = Raleway,
         fontWeight = FontWeight.Normal,
         fontSize = 14.sp
     ),
 
-    body2 = TextStyle(
+    caption = TextStyle(
         fontFamily = Raleway,
         fontWeight = FontWeight.Normal,
         fontSize = 12.sp
@@ -45,10 +52,16 @@ val Typography = Typography(
         fontSize = 22.sp
     ),
 
-    h6 = TextStyle(
+    h4 = TextStyle(
         fontFamily = Raleway,
         fontWeight = FontWeight.Bold,
         fontSize = 20.sp
+    ),
+
+    h6 = TextStyle(
+        fontFamily = Raleway,
+        fontWeight = FontWeight.Bold,
+        fontSize = 16.sp
     )
 
     /* Other default text styles to override

@@ -43,7 +43,7 @@ fun CharacterItem(
         ) {
             Text(
                 text = item.name,
-                style = MaterialTheme.typography.h6,
+                style = MaterialTheme.typography.h4,
                 color = MaterialTheme.colors.secondary
             )
             CompositionLocalProvider(LocalContentAlpha provides ContentAlpha.medium) {
