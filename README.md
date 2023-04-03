@@ -3,8 +3,6 @@
 
 RickandMortyApp is an application that get character data from Rick And Morty Api.
 
-
-
 Developed with:
 - Clean Architecture 
 - MVVM Pattern
